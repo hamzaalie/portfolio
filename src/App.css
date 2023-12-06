@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*------------------*/
+.forms{
+  /* margin-bottom: 10px; */
+}
+
+
+.heading p{
+  font-size: 30px;
+  font-weight: 700;
+  color: #282b8f;
+
+}
+.container{
+  display: flexbox;
+  padding: 0%;
+  padding-left: 200px;
+  width: 80%;
+  font-size: small;
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+}
+.toparea{
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  font-size: smaller;
+  border-bottom: 1px solid black;
+}
+.container label{
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+.container input,
+select {
+  width: 400px;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container button {
+  margin-top: 60px;
+  background-color: #282b8f;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  height: 40px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.inputboxes{
+  width: 300px;
+  display: flex;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+.left-side{
+  margin-right: 30px;
+}
+.photo{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.picturearea{
+  margin-bottom: 30px;
+  display: flex;
+}
+.heading{
+  margin-top: 30px;
+  color: #282b8f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 30px;}
+span{
+  font-size: 0.7em;
+  margin-left: 2px;
+  
+}
+.myaddress input{
+  width: 830px;
+}
+.check-boxes{
+  display: flex;
+  width: auto;
+}
+.check-boxes input[type="checkbox"]{
+  width: 15px;
+  height: 15px;
+  margin-top: 30px;
+  margin-right: 0.99px; 
+}
+.mybcheckbox{
+  display: flex;
+  margin-right: 12px;
+}
+.mybcheckbox p{
+  margin-top: 25px;
+  margin-left: 4px;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container .btn-back{
+/* margin-top: 0px; */
+margin-right: 230px;
+height: 40px;
+width: 150px;
+border: 1px solid black;
+border-radius: 4px;
+cursor: pointer;
+background-color: white;
+color: black;
+}
+
+.container .btn-save{
+float: right;
+margin-right: 200px;
+ margin-top: -40px; 
+height: 40px;
+padding: 2px 5px;
+border: 1px solid black;
+border-radius: 4px;
+cursor: pointer;
+background-color: #282b8f;
+color: #fff;
+}
+
+.container .addmore{
+/* margin-top: 0px; */
+margin-right: 0px;
+height: 40px;
+padding: 2px 5px;
+border: 1px solid black;
+border-radius: 4px;
+cursor: pointer;
+background-color:#282b8f;
+color: #fff;
+}
+
+.btn-save:hover {
+background-color: #282b8f;
+}
+.btn-back:hover {
+  background-color: #282b8f;
+color: #fff;
+border-color: #282b8f;
+}
+.addmore:hover {
+background-color: #282b8f;
+}
+.left-skil{
+margin-right: 30px;
+}  
+
+.graduation{
+display: flex;
+}
+
